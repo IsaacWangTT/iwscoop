@@ -16,13 +16,13 @@
   "extract_dir": "publish",
   "bin": [
     [
-      "Ryujinx Ava.exe",
+      "Ryujinx.Ava.exe",
       "Ryujinx LDN (Avalonia UI)"
     ]
   ],
   "shortcuts": [
     [
-      "Ryujinx Ava.exe",
+      "Ryujinx.Ava.exe",
       "Ryujinx LDN (Avalonia UI)"
     ]
   ],
