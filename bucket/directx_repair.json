@@ -1,5 +1,5 @@
 {
-    "version": "4.2.0.40217",
+    "version": "4.3.0.40864",
     "description": "The program is designed mainly for the 0xc000007b problem and can fix the problem perfectly.",
     "homepage": "https://blog.csdn.net/vbcom/article/details/7245186",
     "license": {
@@ -9,8 +9,8 @@
         "FAQ: <https://blog.csdn.net/VBcom/article/details/12647463>",
         "Feedback: <https://blog.csdn.net/vbcom/article/details/7245186>"
     ],
-    "url": "https://alist.m1lkyway.com/d/OneDrive_E5/scoop/DirectX_Repair(Enhanced_Edition)_v4.2.0.40217.7z",
-    "hash": "a2f4ddec887eebc70dd70a9f1ee38dbbe8ad0297f92c9ecde611a617b619c9d9",
+    "url": "https://alist.m1lkyway.com/d/OneDrive_E5/scoop/DirectX_Repair(Enhanced_Edition)_v4.3.0.40864.7z",
+    "hash": "70248f1d0a069a9fb9f65cc0b206c61d5a328020b537643a4710467c8a6b4704",
     "extract_dir": "DirectX_Repair(Enhanced_Edition)",
     "shortcuts": [
         [
