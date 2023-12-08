@@ -19,7 +19,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://scoops.vercel.app/versions/oneindex.txt",
+        "url": "https://alist.m1lkyway.com/d/OneDrive_E5/scoop/versions.txt",
         "regex": "DirectX_Repair.*?_v([\\d.]+).7z",
         "reverse": true
     },
