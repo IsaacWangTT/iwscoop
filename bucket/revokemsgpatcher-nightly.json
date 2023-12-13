@@ -1,5 +1,5 @@
 {
-    "version": "20231023.4b4ee82",
+    "version": "20231213.fc5df48",
     "description": "A hex editor for WeChat/QQ/TIM. PC版微信/QQ/TIM防撤回补丁。(Nightly version from Github Actions).",
     "homepage": "https://github.com/huiyadanli/RevokeMsgPatcher",
     "license": {
@@ -10,8 +10,8 @@
     "suggest": {
         "NET Framework": "dotnet-framework-4.8.1"
     },
-    "url": "https://nightly.link/huiyadanli/RevokeMsgPatcher/actions/runs/6616771908/RevokeMsgPatcher-Release.zip",
-    "hash": "5edbe1ff36e4399a40f51559bc3287fc6cb09f99b9c4afaac5b0c8ddb8d59f9c",
+    "url": "https://nightly.link/huiyadanli/RevokeMsgPatcher/actions/runs/7197757959/RevokeMsgPatcher-Release.zip",
+    "hash": "c3b91b2a18ea7081ae1c709403d290fc70a0ccb0942ee8695a0d698fbdaac4ae",
     "extract_dir": "Release",
     "shortcuts": [
         [
