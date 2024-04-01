@@ -12,10 +12,10 @@
         "    if (!(Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" | Out-Null }",
         "}"
     ],
-    "extract_dir": "图吧工具箱202309",
+    "extract_dir": "图吧工具箱202403",
     "shortcuts": [
         [
-            "图吧工具箱2023.exe",
+            "图吧工具箱2024.exe",
             "Tuba Toolbox"
         ]
     ],
