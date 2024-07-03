@@ -1,18 +1,18 @@
 {
-    "version": "2024.03",
+    "version": "2024.06",
     "description": "Tuba Toolbox is a collection of open source, free, green and pure hardware testing tools designed for all computer hardware geeks, DIY enthusiasts, gods and rookies. Integration of a large number of common hardware testing, scoring tools, one-click download, easy to use.",
     "homepage": "http://www.tbtool.cn",
     "license": {
         "identifier": "Freeware"
     },
-    "url": "https://alist.m1lkyway.com/d/OneDrive_E5/scoop/tbtool_v2024.03_20240315.exe#/dl.7z",
-    "hash": "fed9ecc078a052e0bda9af24cdae690ddac8c0b10af8cb63a82834c6bc081790",
+    "url": "https://alist.m1lkyway.com/d/OneDrive_E5/scoop/tbtool_v2024.06_20240615.exe#/dl.7z",
+    "hash": "633d9375868df1759b0d3316b017571d3d9d48e89914dfa21284e525a819d80b",
     "post_install": [
         "'config.ini', 'hwinfo.ini', 'PnPDevice.ini' | ForEach-Object {",
         "    if (!(Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" | Out-Null }",
         "}"
     ],
-    "extract_dir": "图吧工具箱202403",
+    "extract_dir": "图吧工具箱202406",
     "shortcuts": [
         [
             "图吧工具箱2024.exe",
