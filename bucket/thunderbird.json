@@ -11,11 +11,11 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/thunderbird/releases/131.0.1/win64/en-US/Thunderbird%20Setup%20131.0.1.exe#/dl.7z",
+            "url": "https://archive.mozilla.org/pub/thunderbird/releases/127.3.1/win64/en-US/Thunderbird%20Setup%20127.3.1.exe#/dl.7z",
             "hash": "sha512:3eb91805858550dba8617c79d37abded7d213ba524567238e57d2736dcc0f8ca15e051515c3bf7dfacd9c39fcb73cf8c56c87711dfbcec457ce5fdb9d17fa6f9"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/thunderbird/releases/131.0.1/win32/en-US/Thunderbird%20Setup%20131.0.1.exe#/dl.7z",
+            "url": "https://archive.mozilla.org/pub/thunderbird/releases/127.3.1/win32/en-US/Thunderbird%20Setup%20127.3.1.exe#/dl.7z",
             "hash": "sha512:fb883fe76074fea963d212431f716a24daf540c0f06c5d14e82bd3a5f6da09863b998f07d1e58f72c044449cca0ea43a858d9e21204d1bd8713c18a0712ba440"
         }
     },
