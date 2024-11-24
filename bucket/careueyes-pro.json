@@ -1,0 +1,26 @@
+{
+    "version": "2.4.6",
+    "description": "The simplest way to protect your vision. The best eye protection and blue light filter software",
+    "homepage": "https://care-eyes.com",
+    "license": "Proprietary",
+    "url": "https://alist.m1lkyway.com/d/OneDrive_E5/scoop/careueyes-pro_v2.4.6.7z",
+    "hash": "C27EF9CACA08EA7DBD8A7403D61D30A68A8F55F2CE84EE3D951FC227FCA9C6F9",
+    "extract_dir": "CareUEyes",
+    "shortcuts": [
+        [
+            "CareUEyesPortable.exe",
+            "CareUEyes"
+        ]
+    ],
+    "persist": [
+        "Data"
+    ],
+    "checkver": {
+        "url": "https://alist.m1lkyway.com/d/OneDrive_E5/scoop/versions.txt",
+        "regex": "(?s)(?<filename>careueyes_v(?<version>[\\d.]+)\\.(?:exe|zip|7z))",
+        "reverse": true
+    },
+    "autoupdate": {
+        "url": "https://alist.m1lkyway.com/d/OneDrive_E5/scoop/$matchFilename#/dl.7z"
+    }
+}
