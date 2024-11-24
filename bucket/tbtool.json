@@ -30,6 +30,7 @@
         "reverse": true
     },
     "autoupdate": {
-        "url": "https://alist.m1lkyway.com/d/OneDrive_E5/scoop/$matchFilename#/dl.7z"
+        "url": "https://alist.m1lkyway.com/d/OneDrive_E5/scoop/$matchFilename#/dl.7z",
+        "extract_dir": "图吧工具箱$date"
     }
 }
