@@ -1,0 +1,22 @@
+{
+    "version": "3.0.20-3.0",
+    "description": "An Emby client with some patches",
+    "homepage": "https://t.me/EmbyNoisyX",
+    "license": "Unknown",
+    "architecture": {
+        "64bit": {
+            "url": "https://alist.m1lkyway.com/d/OneDrive_E5/scoop/emby-theater-carnival_v3.0.20-3.0.exe#/dl.7z",
+            "hash": "9D53FE71B42A530E9941F97AD712BD6724DBB0E7AA0E7DE73A4BF9614B28B001",
+            "extract_dir": "Emby Theater"
+        }
+    },
+    "persist": [
+        "data"
+    ],
+    "shortcuts": [
+        [
+            "Emby.Theater.exe",
+            "Emby Theater (Carnival)"
+        ]
+    ]
+}
