@@ -1,0 +1,26 @@
+{
+    "version": "1.2.0",
+    "description": "The World's best Blue light filter and Eye protection Software",
+    "homepage": "https://iristech.co/",
+    "license": "Proprietary",
+    "url": "https://alist.m1lkyway.com/d/OneDrive_E5/scoop/iris-pro_v1.2.0.exe",
+    "hash": "640B780B5FC3F0C30094A0270B7761F13B7FB553EC14C93001C26F027975337D",
+    "extract_dir": "Iris",
+    "shortcuts": [
+        [
+            "IrisPortable.exe",
+            "Iris"
+        ]
+    ],
+    "persist": [
+        "Data"
+    ],
+    "checkver": {
+        "url": "https://alist.m1lkyway.com/d/OneDrive_E5/scoop/versions.txt",
+        "regex": "(?s)(?<filename>iris_v(?<version>[\\d.]+)\\.(?:exe|zip|7z))",
+        "reverse": true
+    },
+    "autoupdate": {
+        "url": "https://alist.m1lkyway.com/d/OneDrive_E5/scoop/$matchFilename#/dl.7z"
+    }
+}
