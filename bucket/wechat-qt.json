@@ -1,0 +1,36 @@
+{
+    "version": "4.0.1.20",
+    "description": "微信 Windows 版 QT 测试版",
+    "homepage": "https://pc.weixin.qq.com/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.wechat.com/en/service_terms.html"
+    },
+    "url": "https://dldir1v6.qq.com/weixin/Universal/Windows/WeChatWin.exe#/dl.7z",
+    "hash": "5e1919ff0b18477f9cac2989cebcbf8a465c4c7049e3fc4298ea3ce5e8afdd93",
+    "shortcuts": [
+        [
+            "Weixin.exe",
+            "Wechat"
+        ]
+    ],
+    "post_install": "New-Item -Path \"HKCU:\\Software\\Tencent\\Weixin\" -Name \"InstallPath\" -Value \"$dir\" -Force -ErrorAction SilentlyContinue | Out-Null",
+    "checkver": {
+        "script": [
+            "$prefix = 'https://github.com/SpecterShell/Dumplings/raw/refs/heads/main/Tasks/Tencent.WeChat.Universal'",
+            "$stateYamlUrl = $prefix + '/State.yaml'",
+            "$stateContent = Invoke-RestMethod -Uri $stateYamlUrl -UseBasicParsing",
+            "$logFileUrl = \"$prefix/$stateContent\"",
+            "$logContent = Invoke-RestMethod -Uri $logFileUrl -UseBasicParsing",
+            "Write-Output $logContent"
+        ],
+        "regex": "Version:\\s*([0-9.]+)"
+    },
+    "autoupdate": {
+        "url": "https://dldir1v6.qq.com/weixin/Universal/Windows/WeChatWin.exe#/dl.7z",
+        "hash": {
+            "url": "https://github.com/microsoft/winget-pkgs/raw/refs/heads/master/manifests/t/Tencent/WeChat/Universal/$version/Tencent.WeChat.Universal.installer.yaml",
+            "regex": "InstallerSha256:\\s+([a-fA-F0-9]{64})"
+        }
+    }
+}
