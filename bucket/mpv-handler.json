@@ -11,6 +11,9 @@
     },
     "bin": "mpv-handler.exe",
     "checkver": "github",
+    "persist": [
+        "cookies"
+    ],
     "autoupdate": {
         "architecture": {
             "64bit": {
