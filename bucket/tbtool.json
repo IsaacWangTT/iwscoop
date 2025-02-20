@@ -7,10 +7,10 @@
     },
     "url": "https://alist.m1lkyway.com/d/OneDrive_E5/scoop/tbtool_v2025.01_20250118.7z#/dl.7z",
     "hash": "cabbf0fe5ed5088e064cd866f53c0009475c307ebfe2a9f2e6030d29b37b59cb",
-    "extract_dir": "图吧工具箱$date",
+    "extract_dir": "图吧工具箱202501",
     "shortcuts": [
         [
-            "图吧工具箱2024.exe",
+            "图吧工具箱2025.exe",
             "Tuba Toolbox"
         ]
     ],
@@ -22,6 +22,6 @@
     },
     "autoupdate": {
         "url": "https://alist.m1lkyway.com/d/OneDrive_E5/scoop/$matchFilename#/dl.7z",
-        "extract_dir": "图吧工具箱$date"
+        "extract_dir": "图吧工具箱202501"
     }
 }
