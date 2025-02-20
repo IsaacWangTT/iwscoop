@@ -1,13 +1,13 @@
 {
     "homepage": "https://arena.5eplay.com",
     "description": "5eplay 对战平台",
-    "version": "7.1.47",
+    "version": "8.1.0",
     "license": {
         "identifier": "Freeware",
         "url": "https://arena.5eplay.com/page/agreement"
     },
-    "url": "https://oss-arena.5eplay.com/client/5EClient-7.1.47.exe#/dl.7z",
-    "hash": "77ab890b19648313a5098d0ed51312ee1dd7ffa5a870594dbaef90649d734d87",
+    "url": "https://oss-arena.5eplay.com/client/5EClient-8.1.0.exe#/dl.7z",
+    "hash": "7618b47c057147693ffa3cfc9c126b1b3aeb0c4ec04d5137cc6bfa045a0a6708",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
