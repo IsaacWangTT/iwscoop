@@ -6,8 +6,8 @@
         "identifier": "Proprietary",
         "url": "https://meeting.tencent.com/declare.html"
     },
-    "url": "https://updatecdn.meeting.qq.com/cos/e525667d95eae39bd315747cf3f1b1dd/TencentMeeting_0300000000_3.31.2.441.publish.officialwebsite.exe#/dl.7z",
-    "hash": "md5:e525667d95eae39bd315747cf3f1b1dd",
+    "url": "https://updatecdn.meeting.qq.com/cos/edac8a100538bd8d2b0187ff5bc41471/TencentMeeting_0300000000_3.31.2.441_x86_64.publish.officialwebsite.exe#/dl.7z",
+    "hash": "md5:edac8a100538bd8d2b0187ff5bc41471",
     "post_install": [
         "Get-ChildItem \"$dir\\`$_*\" | Rename-Item -NewName \"$version\" -Force",
         "Remove-Item \"$dir\\`$*\" -Recurse -Force -ErrorAction SilentlyContinue",
@@ -28,7 +28,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://meeting.tencent.com/web-service/query-download-info?q=%5B%7B%22package-type%22:%22app%22,%22channel%22:%220300000000%22,%22platform%22:%22windows%22%7D%5D&nonce=0000000000000000",
+        "url": "https://meeting.tencent.com/web-service/query-download-info?q=[{%22package-type%22:%22app%22,%22channel%22:%220300000000%22,%22arch%22:%22x86_64%22,%22platform%22:%22windows%22}]&nonce=0000000000000000",
         "script": [
             "$script:ver = json_path $page '$.info-list[0].version' -single $true",
             "$script:matchesHashtable = @{'url' = json_path $page '$.info-list[0].url' -single $true}",
@@ -40,7 +40,7 @@
         "hash": {
             "jsonpath": "$.info-list[0].md5",
             "mode": "json",
-            "url": "https://meeting.tencent.com/web-service/query-download-info?q=%5B%7B%22package-type%22:%22app%22,%22channel%22:%220300000000%22,%22platform%22:%22windows%22%7D%5D&nonce=AAAAAAAAAAAAAAAA"
+            "url": "https://meeting.tencent.com/web-service/query-download-info?q=[{%22package-type%22:%22app%22,%22channel%22:%220300000000%22,%22arch%22:%22x86_64%22,%22platform%22:%22windows%22}]&nonce=AAAAAAAAAAAAAAAA"
         }
     },
     "notes": "We don't persist your Tencent Meeting data, they are still storaged in \"$env:APPDATA\\Tencent\\WeMeet\"."
