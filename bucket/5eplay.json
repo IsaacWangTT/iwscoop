@@ -13,7 +13,8 @@
         "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
     ],
     "checkver": {
-        "regex": "当前版本 ([\\d.]+)"
+        "url": "https://arena.5eplay.com/update",
+        "regex": "<span>当前版本 ([\\d.]+)</span>"
     },
     "bin": "5EClient.exe",
     "shortcuts": [
