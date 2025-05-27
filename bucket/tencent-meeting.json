@@ -1,13 +1,13 @@
 {
-    "version": "3.34.2.408",
+    "version": "3.34.11.408",
     "description": "Tencent Meeting provides one-stop audio and video conferencing solutions.",
     "homepage": "https://meeting.tencent.com/",
     "license": {
         "identifier": "Proprietary",
         "url": "https://meeting.tencent.com/declare.html"
     },
-    "url": "https://updatecdn.meeting.qq.com/cos/c832cdd89c687ab7d1318b85923977a9/TencentMeeting_0300000000_3.34.2.408_x86_64.publish.officialwebsite.exe#/dl.7z",
-    "hash": "md5:c832cdd89c687ab7d1318b85923977a9",
+    "url": "https://updatecdn.meeting.qq.com/cos/54ac895d2af7a0df80023f3cfe25acc2/TencentMeeting_0300000000_3.34.11.408_x86_64.publish.officialwebsite.exe#/dl.7z",
+    "hash": "md5:54ac895d2af7a0df80023f3cfe25acc2",
     "post_install": [
         "Get-ChildItem \"$dir\\`$_*\" | Rename-Item -NewName \"$version\" -Force",
         "Remove-Item \"$dir\\`$*\" -Recurse -Force -ErrorAction SilentlyContinue",
