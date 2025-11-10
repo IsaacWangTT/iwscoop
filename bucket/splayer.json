@@ -1,13 +1,13 @@
 {
-    "version": "3.0.0-beta.3",
+    "version": "3.0.0-beta.4",
     "description": "🎉 一个简约的音乐播放器，支持逐字歌词，下载歌曲，展示评论区，音乐云盘及歌单管理，音乐频谱，移动端基础适配 | A minimalist music player",
     "homepage": "https://github.com/imsyy/SPlayer",
     "license": {
         "identifier": "AGPL-3.0 license",
         "url": "https://github.com/imsyy/SPlayer#AGPL-3.0-1-ov-file"
     },
-    "url": "https://github.com/imsyy/SPlayer/releases/download/v3.0.0-beta.3/SPlayer-3.0.0-beta.3-setup.exe#/dl.7z",
-    "hash": "sha512:ea42c5b31f4fc076909604686dc4bcfb34b94cc02a0139ade9172a8fff2e366b1c9fa1d771dad003b1caca4fec6e68fdb2aedb7082c6903aa040014ecba0ad13",
+    "url": "https://github.com/imsyy/SPlayer/releases/download/v3.0.0-beta.4/SPlayer-3.0.0-beta.4-setup.exe#/dl.7z",
+    "hash": "sha512:9c11bfdb44b6eb9bb4957aa8f1884a70286e6c4cb6e67d19dcb62f74938735a9963b7496c6cd9ee26ffdf2d947f5401cc92c954ce20a2db0c552ac4abb084295",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$*\", \"$dir\\uninst*\" -Force -Recurse"
